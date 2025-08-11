@@ -4,7 +4,148 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ConnectEasy – Automate Your WhatsApp Business Communication</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      margin: 0;
+      background: #f7fafc;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(90deg, #25d366 0%, #128c7e 100%);
+      color: #fff;
+      padding: 60px 0 40px 0;
+      box-shadow: 0 4px 24px rgba(18,140,126,0.08);
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: -1px;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin-bottom: 28px;
+      font-weight: 500;
+    }
+    .btn {
+      display: inline-block;
+      background: #fff;
+      color: #128c7e;
+      font-weight: 600;
+      padding: 14px 36px;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(18,140,126,0.12);
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn:hover {
+      background: #128c7e;
+      color: #fff;
+    }
+    section {
+      max-width: 900px;
+      margin: 48px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 16px rgba(18,140,126,0.05);
+      padding: 40px 24px;
+    }
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      color: #128c7e;
+      text-align: center;
+    }
+    .steps {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 24px;
+    }
+    .step {
+      background: #f1fdf7;
+      border-radius: 12px;
+      box-shadow: 0 1px 8px rgba(18,140,126,0.04);
+      flex: 1 1 220px;
+      min-width: 220px;
+      max-width: 260px;
+      padding: 24px;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    .step h3 {
+      font-size: 1.2rem;
+      color: #25d366;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 500px;
+    }
+    ul li {
+      font-size: 1.08rem;
+      background: #f1fdf7;
+      margin-bottom: 12px;
+      padding: 12px 18px;
+      border-radius: 8px;
+      box-shadow: 0 1px 6px rgba(18,140,126,0.04);
+      position: relative;
+      padding-left: 38px;
+    }
+    ul li:before {
+      content: "✔";
+      color: #25d366;
+      position: absolute;
+      left: 14px;
+      top: 13px;
+      font-size: 1rem;
+    }
+    #about p, #contact p {
+      text-align: center;
+      font-size: 1.08rem;
+      margin-bottom: 8px;
+    }
+    footer {
+      background: #128c7e;
+      color: #fff;
+      text-align: center;
+      padding: 24px 0 14px 0;
+      font-size: 1rem;
+      margin-top: 48px;
+      border-radius: 0 0 18px 18px;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+      margin: 0 8px;
+    }
+    @media (max-width: 700px) {
+      .steps {
+        flex-direction: column;
+        gap: 0;
+      }
+      section {
+        padding: 24px 8px;
+      }
+      .container {
+        padding: 0 8px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
